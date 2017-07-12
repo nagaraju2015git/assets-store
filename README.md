@@ -18,6 +18,10 @@ On browser, goto http://127.0.0.1:8000/assets/ and see list of asset and also to
 You can click on Swagger Schema, to see the API documentation
 http://127.0.0.1:8000/
 
+![Alt text](https://github.com/nagaraju2015git/assets-store/blob/master/images/img1.png?raw=true "Get")
 
+![Alt text](https://github.com/nagaraju2015git/assets-store/blob/master/images/img2.png?raw=true "Post")
 
+Swaager API Documentation:
+![Alt text](https://github.com/nagaraju2015git/assets-store/blob/master/images/img4.png?raw=true "API documentation in swagger")
 
