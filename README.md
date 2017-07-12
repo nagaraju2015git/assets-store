@@ -1,11 +1,13 @@
 # assets-store
 Assets Store created using Python 2.7/django 1.10.5
 
-git checkout repository
+checkout git repository
+git clone https://github.com/nagaraju2015git/assets-store.git
 
-Install pre-requisistes pip install -r requirements.txt --no-index
+Install pre-requisistes 
+pip install -r requirements.txt --no-index
 
-on terminal, go to the checked-out directory and run below commands
+On terminal, go to the checked-out directory and run below commands
   step 1 : python manage.py createsuperuser (give admin as username and admin@assetstore.com as email and password123 as password) 
   step 2: python manage.py runserver
 
@@ -15,5 +17,7 @@ On browser, goto http://127.0.0.1:8000/assets/ and see list of asset and also to
 
 You can click on Swagger Schema, to see the API documentation
 http://127.0.0.1:8000/
+
+
 
 
