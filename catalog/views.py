@@ -11,15 +11,27 @@ from catalog.models import Asset, AssetClass
 
 
 class AssetList(generics.ListCreateAPIView):
+    """
+        API endpoint that list all assets and create a new post
+        example http://127.0.0.1:8000/assets/
+    """
     queryset = Asset.objects.all()
     serializer_class = AssetSerializer
 
 
 class AssetClassList(generics.ListCreateAPIView):
+    """
+        API endpoint that list all assetclass and create a new post
+        example http://127.0.0.1:8000/assetsclass/
+    """
     queryset = AssetClass.objects.all()
     serializer_class = AssetClassSerializer
 
 def details(request, pk):
+    """
+        API endpoint that view details about an asset
+        example http://127.0.0.1:8000/assets/SAT1/
+    """
     try:
         asset_item = Asset.objects.get(aname=pk)
     except Asset.DoesNotExist:
